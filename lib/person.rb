@@ -28,12 +28,9 @@ end
       return false
   end
 end
- binding.pry 
+ #binding.pry 
   def hygiene=()
-  if @hygiene > 10 
-    @hygiene == 10 
-   
-  end
+  @hygiene > 10 || < 0
   end 
   
   def happiness=()
