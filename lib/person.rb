@@ -1,3 +1,5 @@
+require 'pry'
+
 class Person
   
 attr_accessor :happiness, :bank_account, :hygiene
@@ -12,6 +14,8 @@ attr_writer
 end
 
   def happy?
-    
-
+    if happiness > 7
+      return true
+    else
+      return false
 end
