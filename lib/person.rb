@@ -57,6 +57,10 @@ end
   
   def start_conversation(phoner, topic)
     if topic == "politics"
-      return ""
+      return "blah blah partisan blah lobbyist"
+    elsif topic == "weather"
+    return "blah blah sun blah rain"
+    else
+    
   end
 end
