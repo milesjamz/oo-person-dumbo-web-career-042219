@@ -72,5 +72,6 @@ end
     else topic ==! "politics" || "weather"
     return "blah blah blah blah blah"
   end
-
+end
+end
 end
