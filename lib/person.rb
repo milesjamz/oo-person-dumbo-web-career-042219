@@ -43,6 +43,7 @@ end
     happiness == 0
   else
     return @happiness
+  end
  end
 
   def get_paid(salary)
