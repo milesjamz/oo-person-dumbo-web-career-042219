@@ -33,7 +33,7 @@ end
   if @hygiene > 10 
     @hygiene == 10 
     binding.pry 
- # end
+  end
   
  # def happiness=()
  # end
