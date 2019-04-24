@@ -56,7 +56,7 @@ end
   end
   
   def call_friend(friend)
-    return "Hi #{friend}! It's #{name}. How are you?"
+    return "Hi #{friend[:name]}! It's #{name}. How are you?"
   end
   
   def start_conversation(phoner, topic)
