@@ -3,8 +3,8 @@ require 'pry'
 class Person
   
 attr_accessor  :bank_account
-attr_reader :name,
-attr_writer :happiness, :hygiene
+attr_reader  :name,
+attr_writer  :happiness, :hygiene
   
   def initialize(name)
   @name = name
