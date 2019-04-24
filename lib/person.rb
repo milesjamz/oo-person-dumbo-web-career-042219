@@ -37,7 +37,12 @@ end
   end 
   
   def happiness=()
-    @name.happiness < 10 
+  if happiness > 10
+    happiness == 10
+  elsif happiness < 0
+    happiness == 0
+  else
+    return @happiness
  end
 
   def get_paid(salary)
