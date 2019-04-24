@@ -48,6 +48,7 @@ end
     def work_out
     @hygiene = (@hygiene - 3)
     @happiness = (@happiness + 2)
+    return "♪ another one bites the dust ♫"
   end
 
 end
