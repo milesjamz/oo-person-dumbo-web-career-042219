@@ -28,10 +28,16 @@ end
   end
 end
 
-#   def hygiene=()
-#   if @hygiene  > 10 
-#     @hygiene  < 0 
-#   end 
+ def hygiene=(points)
+    @hygiene = (@hygiene + points)
+  if @hygiene > 10
+    @hygiene == 10
+  elsif @hygiene < 0
+    hygiene == 0
+  else
+    return @hygiene
+  end
+end
   
   def happiness=(points)
     @happiness = (@happiness + points)
@@ -50,7 +56,7 @@ end
 end
 
   def take_bath
-    @hygiene = (@hygiene + 4)
+    hygiene(4)
     return "♪ Rub-a-dub just relaxing in the tub ♫"
   end
   
