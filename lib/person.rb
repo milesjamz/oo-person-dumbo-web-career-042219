@@ -37,9 +37,9 @@ end
   end 
   
   def happiness=()
-  if happiness > 10
+  if @happiness > 10
     happiness == 10
-  elsif happiness < 0
+  elsif @happiness < 0
     happiness == 0
   else
     return @happiness
