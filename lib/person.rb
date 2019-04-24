@@ -1,6 +1,6 @@
 class Person
   
-attr_accessor :happiness, :bank_account
+attr_accessor :happiness, :bank_account, :hygiene
 attr_reader :name
 attr_writer
   
@@ -8,6 +8,7 @@ attr_writer
   @name = name
   @bank_account = 25
   @happiness = 8
+  @hygiene = 8
   
 end
 
