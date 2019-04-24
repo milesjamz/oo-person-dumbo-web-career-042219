@@ -60,7 +60,7 @@ end
       return "blah blah partisan blah lobbyist"
     elsif topic == "weather"
     return "blah blah sun blah rain"
-    else topic !== "politics" || "weather"
+    else topic ==! "politics" || "weather"
     return "blah blah blah blah blah"
   end
   end
