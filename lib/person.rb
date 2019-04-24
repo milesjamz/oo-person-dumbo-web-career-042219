@@ -30,7 +30,7 @@ end
 end
  #binding.pry 
   def hygiene=()
-  if @hygiene  >! 10 
+  if @hygiene  > 10 
     @hygiene 
   end 
   
