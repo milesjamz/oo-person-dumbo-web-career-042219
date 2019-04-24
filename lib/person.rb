@@ -29,4 +29,8 @@ end
   end
 end
 
+  def get_paid(salary)
+    bank_account = (bank_account + salary)
+    puts "all about the benjamins"
+    binding.pry
 end
