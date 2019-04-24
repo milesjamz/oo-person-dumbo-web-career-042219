@@ -50,5 +50,10 @@ end
     @happiness = (@happiness + 2)
     return "♪ another one bites the dust ♫"
   end
-
+  
+  def call_friend(friend)
+    return "Hi #{friend}! It's #{name}. How are you?"
+  end
+  
+  def start
 end
