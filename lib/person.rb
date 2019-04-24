@@ -44,5 +44,10 @@ end
     @hygiene = (@hygiene + 4)
     return "♪ Rub-a-dub just relaxing in the tub ♫"
   end
+  
+    def work_out
+    @hygiene = (@hygiene - 3)
+    @happiness = (@happiness + 2)
+  end
 
 end
