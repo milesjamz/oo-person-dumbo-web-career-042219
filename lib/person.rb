@@ -18,6 +18,7 @@ end
       return true
     else
       return false
+    end
 end
 
   def clean?
