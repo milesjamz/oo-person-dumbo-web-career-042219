@@ -31,7 +31,7 @@ end
 
   def hygiene=()
   if @hygiene > 10 
-    @hygiene == 10
+    @hygiene == 10 
  # end
   
  # def happiness=()
