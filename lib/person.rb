@@ -30,8 +30,8 @@ end
 end
 
   def get_paid(salary)
-    puts "all about the benjamins"
     @bank_account = (@bank_account + salary)
+    return "all about the benjamins"
 end
 
 end
