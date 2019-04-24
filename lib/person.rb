@@ -2,7 +2,7 @@ require 'pry'
 
 class Person
   
-attr_accessor  :bank_account, :hygiene
+attr_accessor  :bank_account,
 attr_reader :name
 attr_writer
   
