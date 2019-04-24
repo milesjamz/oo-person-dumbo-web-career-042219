@@ -33,7 +33,8 @@ end
 #     @hygiene  < 0 
 #   end 
   
-  def happiness=()
+  def happiness=(points)
+    @happiness = (@happiness + points)
   if @happiness > 10
     @happiness == 10
   elsif @happiness < 0
