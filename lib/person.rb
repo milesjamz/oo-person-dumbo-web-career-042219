@@ -36,8 +36,9 @@ end
   end
   end 
   
- # def happiness=()
- # end
+  def happiness=()
+    @name.happiness < 10 
+ end
 
   def get_paid(salary)
   @bank_account = (@bank_account + salary)
