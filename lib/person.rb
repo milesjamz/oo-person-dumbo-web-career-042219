@@ -30,7 +30,7 @@ end
 end
  #binding.pry 
   def hygiene=()
-  @hygiene > 10 || < 0
+  @hygiene =!> 10 || < 0
   end 
   
   def happiness=()
