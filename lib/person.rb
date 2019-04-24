@@ -28,11 +28,11 @@ end
       return false
   end
 end
-
+ binding.pry 
   def hygiene=()
   if @hygiene > 10 
     @hygiene == 10 
-    binding.pry 
+   
   end
   end 
   
