@@ -43,5 +43,6 @@ end
   def take_bath
     @hygiene = (@hygiene + 4)
     return "♪ Rub-a-dub just relaxing in the tub ♫"
+  end
 
 end
