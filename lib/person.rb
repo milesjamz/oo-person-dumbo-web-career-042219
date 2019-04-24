@@ -30,8 +30,8 @@ end
 end
 
   def get_paid(salary)
-    bank_account = (bank_account + salary)
-    puts "all about the benjamins"
+    @bank_account = (@bank_account + salary)
+    returns "all about the benjamins"
     binding.pry
 end
 
