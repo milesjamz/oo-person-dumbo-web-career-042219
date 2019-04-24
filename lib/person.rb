@@ -29,6 +29,9 @@ end
   end
 end
 
+  def hygiene=()
+  end
+
   def get_paid(salary)
     @bank_account = (@bank_account + salary)
     return "all about the benjamins"
