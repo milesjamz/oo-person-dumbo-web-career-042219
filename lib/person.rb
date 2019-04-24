@@ -29,7 +29,9 @@ end
   end
 end
 
- # def hygiene=()
+  def hygiene=()
+  if @hygiene > 10 
+    @hygiene == 10
  # end
   
  # def happiness=()
