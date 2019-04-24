@@ -19,3 +19,10 @@ end
     else
       return false
 end
+
+  def clean?
+    if hygiene > 7
+      return true
+    else
+      return false
+end
