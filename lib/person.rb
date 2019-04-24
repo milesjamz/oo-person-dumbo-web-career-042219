@@ -34,4 +34,8 @@ end
     return "all about the benjamins"
 end
 
+  def take_bath
+    @hygiene = (@hygiene + 4)
+    return ""
+
 end
