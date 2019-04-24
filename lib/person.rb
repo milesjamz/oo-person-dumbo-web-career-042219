@@ -61,6 +61,7 @@ end
     elsif topic == "weather"
     return "blah blah sun blah rain"
     else
+    return ""
     
   end
 end
