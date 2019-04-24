@@ -2,7 +2,7 @@ require 'pry'
 
 class Person
   
-attr_accessor :happiness, :bank_account, :hygiene
+attr_accessor  :bank_account, :hygiene
 attr_reader :name
 attr_writer
   
@@ -31,7 +31,7 @@ end
  #binding.pry 
   def hygiene=()
   if @hygiene  > 10 
-    @hygiene 
+    @hygiene  < 0 
   end 
   
   def happiness=()
