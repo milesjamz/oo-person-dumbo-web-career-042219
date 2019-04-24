@@ -55,6 +55,8 @@ end
     return "Hi #{friend}! It's #{name}. How are you?"
   end
   
-  def start_conversation(caller, )
+  def start_conversation(phoner, topic)
+    if topic == "politics"
+      return ""
   end
 end
